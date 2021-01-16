@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    <div class="auth-forms">
+        <h1>Вход</h1>
+        <form action="{% url 'login' %}" method="post" novalidate>
+            {{ form.as_p }}
+            {% csrf_token %}
+            <div class="auth-form-recovery"><a href="{% url 'password_reset' %}">Забыли пароль?</a></div>
+            <div><button type="submit" class="button">Войти</button></div>
+        </form>
+        <div class="auth-form-register"><a href="{% url 'register' %}">Зарегистрироваться</a></div>
+    </div>
+{% endblock %}

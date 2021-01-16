@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% for block in blocks %}
+        {% with template_name=block.block_id|stringformat:"s"|add:".html" %}
+            {% include "landing/block/"|add:template_name %}
+        {% endwith %}
+    {% endfor %}
+
+{% endblock %}
+

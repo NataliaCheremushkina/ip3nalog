@@ -1,0 +1,38 @@
+<section id="{{ block.block_id }}" class="landing-block">
+    <div class="container">
+        <div class="grid">
+            <div class="title">
+                {% if block.title %}
+                    <h2>{{ block.title }}</h2>
+                {% endif %}
+            </div>
+            <div class="image">
+                <h5>Ваш месячный оборот</h5>
+                <input type="text" class="form-input">
+                <div class="economy__table">
+                    <div class="economy__table-item">
+                        <div>Ваш годовой оборот</div>
+                        <div>360 000 р.</div>
+                    </div>
+                    <div class="economy__table-item">
+                        <div>Налог в год по ставке 6%</div>
+                        <div>360 000 р.</div>
+                    </div>
+                    <div class="economy__table-item">
+                        <div><b>Налог в месяц по ставке 3%</b></div>
+                        <div><b>360 000 р.</b></div>
+                    </div>
+                    <div class="economy__table-item">
+                        <div><h4>Ваша выгода в год</h4></div>
+                        <div>360 000 р.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                {% if block.content %}
+                    {{ block.content|safe }}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

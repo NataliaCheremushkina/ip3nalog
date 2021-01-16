@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Edit profile{% endblock %}
+
+{% block content %}
+    <div class="auth-forms">
+        <h1>Редактировать профиль</h1>
+        <form action="." method="post" novalidate>
+            {{ user_form.as_p }}
+            {{ profile_form.as_p }}
+            {% csrf_token %}
+            <div><button type="submit" class="button">Сохранить изменения</button></div>
+        </form>
+    </div>
+{% endblock %}

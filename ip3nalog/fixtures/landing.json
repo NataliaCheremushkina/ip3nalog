@@ -1,0 +1,86 @@
+[
+{
+  "model": "landing.block",
+  "pk": 1,
+  "fields": {
+    "sorting": 1,
+    "block_id": "header",
+    "block_title": "Главная",
+    "title": "Снижаем налоговую ставку для ИП до 3%",
+    "content": "<p>Льготная программа в Удмуртии для компаний из других регионов</p>\r\n                    <div class=\"header__cta\">\r\n                        <button type=\"button\" class=\"button\" data-toggle=\"modal\" data-target=\"#modalForm\">Подать заявку</button>\r\n                        <button type=\"button\" class=\"button button-outline\">Расcчитать выгоду</button>\r\n                    </div>\r\n                    <div class=\"header__icons\">\r\n                        <div class=\"header__icons-item\">\r\n                            <img src=\"/static/landing/images/clock.svg\" alt=\"\"> Быстро\r\n                        </div>\r\n                        <div class=\"header__icons-item\">\r\n                            <img src=\"/static/landing/images/scales.svg\" alt=\"\"> Законно\r\n                        </div>\r\n                        <div class=\"header__icons-item\">\r\n                            <img src=\"/static/landing/images/shield.svg\" alt=\"\"> Без рисков\r\n                        </div>\r\n                    </div>",
+    "image": "uploads/header.jpg",
+    "status": "visible",
+    "menu_status": "invisible"
+  }
+},
+{
+  "model": "landing.block",
+  "pk": 2,
+  "fields": {
+    "sorting": 2,
+    "block_id": "programm",
+    "block_title": "О программе",
+    "title": "О программе",
+    "content": "<p>С 01 января 2020 года в Удмуртской Республике ввели льготную программу для организаций и индивидуальных предпринимателей. Все налогоплательщики, которые применяют УСН «Доходы» и хотят впервые зарегистрировать бизнес на территории республики из другого региона будут платить по сниженной налоговой ставке — 3% в год . При этом фактический переезд не требуется.</p>\r\n                    <p><font color=\"#e64456\">Уменьшим налоги</font> для вашего бизнеса, сменив место постоянной регистрации</p>\r\n                    <div class=\"programm__cta\"><button type=\"button\" class=\"button\" data-toggle=\"modal\" data-target=\"#modalForm\">Уменьшить налоги</button></div>",
+    "image": "uploads/about.webp",
+    "status": "visible",
+    "menu_status": "visible"
+  }
+},
+{
+  "model": "landing.block",
+  "pk": 3,
+  "fields": {
+    "sorting": 4,
+    "block_id": "economy",
+    "block_title": "Калькулятор выгоды",
+    "title": "Узнайте, сколько вы можете сэкономить",
+    "content": "<p>Самое время начать экономить с помощью законного способа уменьшения налога до 3%</p>\r\n                    <div class=\"economy__cta\"><button type=\"button\" class=\"button\" data-toggle=\"modal\" data-target=\"#modalForm\">Уменьшить налоги</button></div>",
+    "image": "",
+    "status": "visible",
+    "menu_status": "visible"
+  }
+},
+{
+  "model": "landing.block",
+  "pk": 4,
+  "fields": {
+    "sorting": 3,
+    "block_id": "calltoaction",
+    "block_title": "Баннер",
+    "title": "Работаем со всеми ИП на УСН «Доходы»",
+    "content": "<p>• Выручка от 1 млн рублей в месяц</p>\r\n                        <p>• Чистая налоговая история</p>\r\n                        <p>• Любой вид деятельности</p>",
+    "image": "",
+    "status": "visible",
+    "menu_status": "invisible"
+  }
+},
+{
+  "model": "landing.block",
+  "pk": 5,
+  "fields": {
+    "sorting": 7,
+    "block_id": "programm",
+    "block_title": "О программе",
+    "title": "О программе",
+    "content": "<p>С 01 января 2020 года в Удмуртской Республике ввели льготную программу для организаций и индивидуальных предпринимателей. Все налогоплательщики, которые применяют УСН «Доходы» и хотят впервые зарегистрировать бизнес на территории республики из другого региона будут платить по сниженной налоговой ставке — 3% в год . При этом фактический переезд не требуется.</p>\r\n                    <p><font color=\"#e64456\">Уменьшим налоги</font> для вашего бизнеса, сменив место постоянной регистрации</p>\r\n                    <div class=\"programm__cta\"><button type=\"button\" class=\"button\" data-toggle=\"modal\" data-target=\"#modalForm\">Уменьшить налоги</button></div>",
+    "image": "uploads/about_Yl16IgX.webp",
+    "status": "visible",
+    "menu_status": "visible"
+  }
+},
+{
+  "model": "landing.block",
+  "pk": 6,
+  "fields": {
+    "sorting": 6,
+    "block_id": "default",
+    "block_title": "Шаблон по умолчанию",
+    "title": "",
+    "content": "<p><span style=\"color: rgb(255, 0, 0); font-weight: bold;\"><span style=\"font-family: Arial; font-size: 24px;\"><br></span></span></p><p><span style=\"color: rgb(255, 0, 0); font-weight: bold;\"><span style=\"font-family: Arial; font-size: 24px;\"><br></span></span></p><hr><p><span style=\"color: rgb(255, 0, 0); font-weight: bold;\"><span style=\"font-family: Arial; font-size: 24px;\"><br></span></span></p><p style=\"text-align: center; \"><span style=\"color: rgb(255, 0, 0); font-weight: bold;\"><span style=\"font-family: Arial; font-size: 24px;\">Предоставляем адрес</span><span style=\"font-size: 24px; font-family: Arial;\">﻿</span></span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">﻿</span><span style=\"background-color: rgb(251, 251, 252); font-family: Inter, Arial, sans-serif; font-size: 16px;\">Заключаем с вами договор аренды и предоставляем новый адрес для перерегистрации бизнеса на территории Удмуртской Республики</span></p><p><span style=\"background-color: rgb(251, 251, 252); font-family: Inter, Arial, sans-serif; font-size: 16px;\"><br></span></p><hr><p><span style=\"background-color: rgb(251, 251, 252); font-family: Inter, Arial, sans-serif; font-size: 16px;\"><br></span><span style=\"color: rgb(255, 0, 0); font-weight: bold;\"><span style=\"font-size: 24px; font-family: Arial;\"><br></span></span></p>",
+    "image": "",
+    "status": "invisible",
+    "menu_status": "invisible"
+  }
+}
+]

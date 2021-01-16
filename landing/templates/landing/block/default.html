@@ -1,0 +1,17 @@
+<section id="{{ block.block_id }}" class="landing-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                {% if block.title %}
+                    <h2>{{ block.title }}</h2>
+                {% endif %}
+                {% if block.content %}
+                    {{ block.content|safe }}
+                {% endif %}
+                {% if block.image %}
+                    <img src="{{ block.image.url }}" class="img-fluid">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
